@@ -1,7 +1,7 @@
 # Подключение библиотек
-# from turtle import color
 import pygame
 import time
+from random import randint
 
 # Инициализация библиотеки pygame
 pygame.init()
@@ -15,6 +15,7 @@ dis_width = 800
 dis_height = 600
 min_width = 500
 min_height = 400
+print (randint(0, dis_width))
 
 dis = pygame.display.set_mode((dis_width, dis_height))
 pygame.display.set_caption('SnakePython by Cheburek08')
