@@ -1,12 +1,9 @@
-# Подключение библиотек
 import pygame
 import time
 from random import randint
 
-# Инициализация библиотеки pygame
 pygame.init()
 
-# Объявление переменных для цвета
 white = (100, 255, 255)
 black = (0, 0, 0)
 red = (255, 0, 0)
@@ -64,7 +61,7 @@ while not game_over:
             elif event.key == pygame.K_SPACE:
                 y1_change = 0
                 x1_change = 0
-#Условия_Проигрыша
+  
     if ( (x1 > x2 and x1 < x3) and y1 > y2 and y1 < y3 ) or x1 > dis_width or x1 < 0 or y1 < 0 or y1 > dis_height:
         game_over = True
 
