@@ -26,7 +26,7 @@ xapple = randint(10, dis_width)
 yapple = randint (10, dis_height)
 
 # Размер змейки
-snake_block = 10
+snake_block = 15
 apple_block = 15
 
 x1_change = 0
@@ -75,8 +75,7 @@ while not game_over:
 
     # Для добавления используем метод draw
     pygame.draw.rect(dis, black, [x1, y1, snake_block, snake_block])
-
-    pygame.draw.rect(dis, (50, 150, 0), [xapple, yapple, apple_block, apple_block])
+    pygame.draw.circle(dis, (50, 150, 0), (xapple, yapple), 10)
 
     pygame.display.update()
 
