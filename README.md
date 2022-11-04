@@ -1,5 +1,7 @@
 import pygame
+
 import time
+
 from random import randint
 
 pygame.init()
