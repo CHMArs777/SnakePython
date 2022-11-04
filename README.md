@@ -1,5 +1,4 @@
 # Подключение библиотек
-# from turtle import color
 import pygame
 import time
 from random import randint
