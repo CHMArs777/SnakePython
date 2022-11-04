@@ -4,11 +4,15 @@ import time
 
 from random import randint
 
+
 pygame.init()
 
 white = (100, 255, 255)
+
 black = (0, 0, 0)
+
 red = (255, 0, 0)
+
 
 dis_width = 800
 dis_height = 600
