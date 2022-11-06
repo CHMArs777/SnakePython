@@ -27,7 +27,7 @@ yapple = randint (10, dis_height)
 
 # Размер змейки
 snake_block = 15
-apple_block = 15
+apple_radius = randint(0, 50)
 
 x1_change = 0
 y1_change = 0
