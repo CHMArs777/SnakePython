@@ -10,6 +10,7 @@ pygame.init()
 white = (100, 255, 255)
 black = (0, 0, 0)
 red = (255, 0, 0)
+green = (120, 100, 50)
 
 dis_width = 800
 dis_height = 400
@@ -75,7 +76,7 @@ while not game_over:
 
     # Для добавления используем метод draw
     pygame.draw.rect(dis, black, [x1, y1, snake_block, snake_block])
-    pygame.draw.circle(dis, (50, 150, 0), (xapple, yapple), 10)
+    pygame.draw.circle(dis, green, (xapple, yapple), 10)
 
     pygame.display.update()
 
