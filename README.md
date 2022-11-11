@@ -46,7 +46,7 @@ def message(msg, color):
     mesg = font_style.render(msg, True, color)
     dis.blit(mesg, [dis_width / 2, dis_height / 2])
 
-
+# Управление
 while not game_over:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -67,7 +67,7 @@ while not game_over:
             elif event.key == pygame.K_SPACE:
                 y1_change = 0
                 x1_change = 0
-    #  Условия Проигрыша
+    # Условия Проигрыша
     if x1 > dis_width or x1 < 0 or y1 > dis_height or y1 < 0:
         game_over = True
     x1 += x1_change
