@@ -73,14 +73,14 @@ while not game_over:
     xapple = randint(0, dis_width)
     yapple = randint(0, dis_height)
     
-
+#Условия Проигрыша
     if x1 > dis_width or x1 < 0 or y1 > dis_height or y1 < 0:
         game_over = True
     x1 += x1_change
     y1 += y1_change
     dis.fill(white)
-
-    # Для добавления используем метод draw
+    
+  # Для добавления используем метод draw
     pygame.draw.rect(dis, black, [x1, y1, snake_block, snake_block])
     pygame.draw.circle(dis, green, (xapple, yapple), 10)
 
