@@ -16,7 +16,7 @@ dis_width = 800
 dis_height = 400
 
 dis = pygame.display.set_mode((dis_width, dis_height))
-pygame.display.set_caption('SnakePython ')
+pygame.display.set_caption('SnakePython by Cheburek08')
 
 game_over = False
 #  начальное положение
